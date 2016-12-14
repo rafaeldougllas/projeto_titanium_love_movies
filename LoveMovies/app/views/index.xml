@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical">
+			<Button id="menuSearch" onClick="openSearch" title="Search"
+	            top="10" width="100" height="50" />
+			<Button id="menuFavorites" onClick="openFavorite" title="Favorites"
+							top="10" width="100" height="50" />
+			<Button id="menuTheaters" onClick="openTheaters" title="Theaters"
+							top="10" width="100" height="50" />
+			<Button id="menuShare" onClick="openShare" title="share"
+							top="10" width="100" height="50" />
+		</View>
+	</Window>
+</Alloy>

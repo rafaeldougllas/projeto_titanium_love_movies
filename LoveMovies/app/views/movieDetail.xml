@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="movieDetail">
+			<ImageView id="imageNormal" visible="false" ></ImageView>
+			<ImageView id="backgroundImage" width="Ti.UI.FILL" height="Ti.UI.SIZE"></ImageView>
+			<View>
+				<Label id="title"></Label>
+				<Label id="year"></Label>
+				<Label id="description"></Label>
+				<Button title="Salvar" onClick="salvar" width="Ti.UI.FILL" height="Ti.UI.SIZE"></Button>
+			</View>
+
+	</Window>
+</Alloy>

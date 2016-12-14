@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="search">
+		<View id="mainView" width="Ti.UI.FILL" height="Ti.UI.FILL">
+			<View id="mainTopBar">
+				<View id="searchView" layout="horizontal" width="Ti.UI.FILL" height="Ti.UI.FILL">
+					<TextField id="searchField" width="75%" height="Ti.UI.FILL"></TextField>
+					<View id="searchViewImage" width="20%" height="Ti.UI.FILL">
+						<View id="searchButtonImage" width="25" height="25"></View>
+					</View>
+				</View>
+			</View>
+			<TableView id="myTableView" width="Ti.UI.FILL" height="Ti.UI.FILL"></TableView>
+		</View>
+	</Window>
+</Alloy>

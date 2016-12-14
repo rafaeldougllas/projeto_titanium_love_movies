@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container">
+		<View width="Ti.UI.FILL" height="Ti.UI.FILL">
+			<TableView onClick="showMovieDetailSave" id="myTable" dataCollection="movies" >
+				<TableViewRow identificador="{alloy_id}" >
+					<View layout="horizontal" width="Ti.UI.FILL" height="Ti.UI.SIZE">
+						<ImageView id="image" image="{image}" width="Ti.UI.SIZE" height="Ti.UI.SIZE"/>
+						<View layout="vertical">
+							<Label id="year" text="{year}" width="Ti.UI.FILL" height="Ti.UI.SIZE"/>
+							<Label id="description" text="{description}" width="Ti.UI.FILL" height="Ti.UI.SIZE"/>
+						</View>
+					</View>
+				</TableViewRow>
+			</TableView>
+		</View>
+	</Window>
+</Alloy>

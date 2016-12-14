@@ -1,0 +1,27 @@
+"Window":{
+  layout: "vertical",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+"Label":{
+  width: Ti.UI.FILL,
+  height: Ti.UI.SIZE,
+  color: "white"
+}
+"View":{
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE,
+    layout: "vertical",
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+"#title":{
+  font: { fontSize:20 },
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+"#year":{
+  font: { fontSize:15 },
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+"#description":{
+  font: { fontSize:10 },
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
